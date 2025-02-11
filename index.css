@@ -88,6 +88,11 @@ h1 {
   margin-bottom: calc(var(--line-height) * 2);
   text-transform: uppercase;
 }
+
+.onexdev {
+  text-transform: none;
+}
+
 h2 {
   font-size: 1rem;
   text-transform: uppercase;
@@ -181,6 +186,12 @@ th {
 }
 .header tr td:last-child {
   text-align: right;
+}
+.header tr td:first-child {
+  border-left: none;
+}
+.header th:first-child {
+  border-left: none;
 }
 
 p {
@@ -552,7 +563,7 @@ label input {
   width: 25ch; /* Adjust as needed */
   overflow-y: auto; /* Add scroll if content overflows */
   padding-right: var(--line-height); /* Add spacing to the right */
-  border-right: var(--border-thickness) solid var(--text-color); /* Add a separator line */
+  border-right: calc(var(--border-thickness) * 3) double var(--text-color); /* Double border separator */
 }
 
 .main-content {
@@ -622,18 +633,19 @@ aside {
 }
 
 main-content.header {
-            width: 100%; /* Make the header span the full width of the main content */
-            margin-bottom: var(--line-height); /* Add some spacing below the header */
-        }
+  width: 100%; /* Make the header span the full width of the main content */
+  margin-bottom: var(--line-height); /* Add some spacing below the header */
+  border-left: none;
+}
 
-      .main-content.header h1 {
-            margin: 0; /* Reset margins for the h1 within the header */
-        }
+.main-content.header h1 {
+  margin: 0; /* Reset margins for the h1 within the header */
+}
 
-      .main-content.header td {
-            padding: 0.5ch; /* Add padding to table cells for better spacing */
-            vertical-align: middle; /* Vertically center content in table cells */
-        }
-      .main-content.header th {
-             text-align: left; /* Align table headers to the left */
-        }
+.main-content.header td {
+  padding: 0.5ch; /* Add padding to table cells for better spacing */
+  vertical-align: middle; /* Vertically center content in table cells */
+}
+.main-content.header th {
+  text-align: left; /* Align table headers to the left */
+}
