@@ -53,8 +53,6 @@ body {
   position: relative;
   width: 100%;
   margin: 0;
-  padding: var(--line-height) 2ch;
-  max-width: calc(min(80ch, round(down, 100%, 1ch)));
   line-height: var(--line-height);
   overflow-x: hidden;
 }
@@ -523,10 +521,6 @@ label input {
   display: block;
 }
 
-.tree {
-  font-size: large;
-}
-
 /* Optional styling for the /home/ilia part */
 .tree > li > p {
   cursor: default;
@@ -536,19 +530,6 @@ label input {
 .tree > li {
   position: relative;
 }
-.tree > li::after {
-  content: "\25BE"; /* Downwards-pointing triangle */
-  position: absolute;
-  right: 5px;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 10px;
-}
-.tree > li:hover::after {
-  /* Rotate the arrow */
-  transform: translateY(-50%) rotate(180deg);
-}
-
 /* Optional: Style the top-level list item to look like a folder */
 .tree > li > p {
   display: inline-block;
@@ -579,18 +560,29 @@ label input {
   display: flex; /* Use flexbox for layout */
   height: 100vh; /* Set a height for the container */
 }
+
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
+
 main {
-  flex: 1;
+  width: 75%;
+  flex: 1 0 auto;
+}
+
+aside {
+  padding-left: 1%;
+  padding-top: 3pt;
+  margin-left: 0;
+  width: 25%;
+  flex: 0 0 1;
 }
 
 /* Styles for the tree within the sidebar */
 .sidebar .tree {
-  font-size: 1rem; /* Adjust font size for the tree */
+  font-size: large; /* Adjust font size for the tree */
 }
 
 /* Ensure the folder structure is contained within the sidebar */
@@ -611,14 +603,17 @@ main {
 .sidebar .tree li:last-child:after {
   left: 0;
 }
+
 .sidebar .tree > li {
   padding-left: 0;
   margin-left: 0;
   border-left: none;
 }
+
 .sidebar .tree > li::after {
   right: 0;
 }
+
 .sidebar .tree > li > p {
   padding-left: 20px;
 }
