@@ -38,6 +38,11 @@
   margin-top: var(--line-height);
 }
 
+.main-content {
+  margin-top: 0; /* Add some left padding */
+  margin-right: 0;
+}
+
 html {
   display: flex;
   width: 100%;
@@ -139,7 +144,6 @@ sub {
 
 table {
   position: relative;
-  top: calc(var(--line-height) / 2);
   width: calc(round(down, 100%, 1ch));
   border-collapse: collapse;
   margin: 0 0 calc(var(--line-height) * 2);
@@ -553,7 +557,6 @@ label input {
 
 .main-content {
   flex: 1; /* Allow main content to take remaining space */
-  padding-left: var(--line-height); /* Add some left padding */
 }
 
 .container {
@@ -617,3 +620,20 @@ aside {
 .sidebar .tree > li > p {
   padding-left: 20px;
 }
+
+main-content.header {
+            width: 100%; /* Make the header span the full width of the main content */
+            margin-bottom: var(--line-height); /* Add some spacing below the header */
+        }
+
+      .main-content.header h1 {
+            margin: 0; /* Reset margins for the h1 within the header */
+        }
+
+      .main-content.header td {
+            padding: 0.5ch; /* Add padding to table cells for better spacing */
+            vertical-align: middle; /* Vertically center content in table cells */
+        }
+      .main-content.header th {
+             text-align: left; /* Align table headers to the left */
+        }
