@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@owickstrom/the-monospace-web": "github:owickstrom/the-monospace-web"
+  }
+}
