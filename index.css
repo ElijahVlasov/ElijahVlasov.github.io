@@ -93,12 +93,12 @@ body {
   /* Add scroll if content overflows */
   padding-right: var(--line-height);
   /* Add spacing to the right */
-  border-right: calc(var(--border-thickness) * 3) double var(--text-color);
   /* Double border separator */
 }
 
 .main-content {
   flex: 1;
+  border-left: calc(var(--border-thickness) * 2) solid var(--text-color);
   /* Allow main content to take remaining space */
 }
 
@@ -107,6 +107,10 @@ body {
   /* Use flexbox for layout */
   height: 100vh;
   /* Set a height for the container */
+  column-gap: 10px;
+  padding-top: 3pt;
+  padding-left: 3pt;
+  padding-right: 3pt;
 }
 
 body {
@@ -123,6 +127,9 @@ main {
 aside {
   padding-left: 1%;
   padding-top: 3pt;
+  border-left: solid var(--text-color);
+  border-top: solid var(--text-color);
+  border-right: solid var(--text-color);
   margin-left: 0;
   width: 25%;
   flex: 0 0 1;
