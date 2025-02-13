@@ -1,3 +1,17 @@
+:root {
+  --linkedin-logo: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20data-supported-dps%3D%2224x24%22%20fill%3D%22currentColor%22%20class%3D%22mercado-match%22%20width%3D%2224%22%20height%3D%2224%22%20focusable%3D%22false%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M20.5%202h-17A1.5%201.5%200%20002%203.5v17A1.5%201.5%200%20003.5%2022h17a1.5%201.5%200%20001.5-1.5v-17A1.5%201.5%200%200020.5%202zM8%2019H5v-9h3zM6.5%208.25A1.75%201.75%200%20118.3%206.5a1.78%201.78%200%2001-1.8%201.75zM19%2019h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74%201.74%200%200013%2014.19a.66.66%200%20000%20.14V19h-3v-9h2.9v1.3a3.11%203.11%200%20012.7-1.4c1.55%200%203.36.86%203.36%203.66z%22%3E%3C%2Fpath%3E%0A%20%20%20%20%3C%2Fsvg%3E");
+  --github-logo: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22currentColor%22%20viewBox%3D%220%200%2024%2024%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M12.5.75C6.146.75%201%205.896%201%2012.25c0%205.089%203.292%209.387%207.863%2010.91.575.101.79-.244.79-.546%200-.273-.014-1.178-.014-2.142-2.889.532-3.636-.704-3.866-1.35-.13-.331-.69-1.352-1.18-1.625-.402-.216-.977-.748-.014-.762.906-.014%201.553.834%201.769%201.179%201.035%201.74%202.688%201.25%203.349.948.1-.747.402-1.25.733-1.538-2.559-.287-5.232-1.279-5.232-5.678%200-1.25.445-2.285%201.178-3.09-.115-.288-.517-1.467.115-3.048%200%200%20.963-.302%203.163%201.179.92-.259%201.897-.388%202.875-.388.977%200%201.955.13%202.875.388%202.2-1.495%203.162-1.179%203.162-1.179.633%201.581.23%202.76.115%203.048.733.805%201.179%201.825%201.179%203.09%200%204.413-2.688%205.39-5.247%205.678.417.36.776%201.05.776%202.128%200%201.538-.014%202.774-.014%203.162%200%20.302.216.662.79.547C20.709%2021.637%2024%2017.324%2024%2012.25%2024%205.896%2018.854.75%2012.5.75Z%22%3E%3C%2Fpath%3E%0A%3C%2Fsvg%3E");
+  --twitter-logo: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22currentColor%22%20viewBox%3D%220%200%2024%2024%22%3E%0A%3Cg%3E%3Cpath%20d%3D%22M18.244%202.25h3.308l-7.227%208.26%208.502%2011.24H16.17l-5.214-6.817L4.99%2021.75H1.68l7.73-8.835L1.254%202.25H8.08l4.713%206.231zm-1.161%2017.52h1.833L7.084%204.126H5.117z%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --linkedin-logo: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20data-supported-dps%3D%2224x24%22%20fill%3D%22%23fff%22%20class%3D%22mercado-match%22%20width%3D%2224%22%20height%3D%2224%22%20focusable%3D%22false%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M20.5%202h-17A1.5%201.5%200%20002%203.5v17A1.5%201.5%200%20003.5%2022h17a1.5%201.5%200%20001.5-1.5v-17A1.5%201.5%200%200020.5%202zM8%2019H5v-9h3zM6.5%208.25A1.75%201.75%200%20118.3%206.5a1.78%201.78%200%2001-1.8%201.75zM19%2019h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74%201.74%200%200013%2014.19a.66.66%200%20000%20.14V19h-3v-9h2.9v1.3a3.11%203.11%200%20012.7-1.4c1.55%200%203.36.86%203.36%203.66z%22%3E%3C%2Fpath%3E%0A%20%20%20%20%3C%2Fsvg%3E");
+    --github-logo: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23FFF%22%20viewBox%3D%220%200%2024%2024%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M12.5.75C6.146.75%201%205.896%201%2012.25c0%205.089%203.292%209.387%207.863%2010.91.575.101.79-.244.79-.546%200-.273-.014-1.178-.014-2.142-2.889.532-3.636-.704-3.866-1.35-.13-.331-.69-1.352-1.18-1.625-.402-.216-.977-.748-.014-.762.906-.014%201.553.834%201.769%201.179%201.035%201.74%202.688%201.25%203.349.948.1-.747.402-1.25.733-1.538-2.559-.287-5.232-1.279-5.232-5.678%200-1.25.445-2.285%201.178-3.09-.115-.288-.517-1.467.115-3.048%200%200%20.963-.302%203.163%201.179.92-.259%201.897-.388%202.875-.388.977%200%201.955.13%202.875.388%202.2-1.495%203.162-1.179%203.162-1.179.633%201.581.23%202.76.115%203.048.733.805%201.179%201.825%201.179%203.09%200%204.413-2.688%205.39-5.247%205.678.417.36.776%201.05.776%202.128%200%201.538-.014%202.774-.014%203.162%200%20.302.216.662.79.547C20.709%2021.637%2024%2017.324%2024%2012.25%2024%205.896%2018.854.75%2012.5.75Z%22%3E%3C%2Fpath%3E%0A%3C%2Fsvg%3E");
+    --twitter-logo: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23FFF%22%20viewBox%3D%220%200%2024%2024%22%3E%0A%3Cg%3E%3Cpath%20d%3D%22M18.244%202.25h3.308l-7.227%208.26%208.502%2011.24H16.17l-5.214-6.817L4.99%2021.75H1.68l7.73-8.835L1.254%202.25H8.08l4.713%206.231zm-1.161%2017.52h1.833L7.084%204.126H5.117z%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  }
+}
+
 body {
   max-width: none;
   margin: 0;
@@ -9,15 +23,19 @@ body {
   margin-bottom: calc(var(--line-height) * 2);
   top: 0;
 }
+
 .header h1 {
   margin: 0;
 }
+
 .header tr td:last-child {
   text-align: right;
 }
+
 .header tr td:first-child {
   border-left: none;
 }
+
 .header th:first-child {
   border-left: none;
 }
@@ -32,52 +50,61 @@ body {
   display: none;
 }
 
-.tree > li:hover > .incremental {
+.tree>li:hover>.incremental {
   /* Show 'projects' when hovering over /home/ilia */
   display: block;
 }
 
-.incremental li:hover > .nested {
+.incremental li:hover>.nested {
   display: block;
 }
 
 /* Optional styling for the /home/ilia part */
-.tree > li > p {
+.tree>li>p {
   cursor: default;
 }
 
 /* Optional: Style the top-level list item to indicate that it contains nested items */
-.tree > li {
+.tree>li {
   position: relative;
 }
+
 /* Optional: Style the top-level list item to look like a folder */
-.tree > li > p {
+.tree>li>p {
   display: inline-block;
   padding-left: 20px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M20 6h-8l-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2z'/%3E%3C/svg%3E"); /* Replace with your folder icon */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M20 6h-8l-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2z'/%3E%3C/svg%3E");
+  /* Replace with your folder icon */
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 16px 16px;
 }
 
-.tree > li > p strong {
+.tree>li>p strong {
   font-weight: normal;
 }
 
 .sidebar {
-  width: 25ch; /* Adjust as needed */
-  overflow-y: auto; /* Add scroll if content overflows */
-  padding-right: var(--line-height); /* Add spacing to the right */
-  border-right: calc(var(--border-thickness) * 3) double var(--text-color); /* Double border separator */
+  width: 25ch;
+  /* Adjust as needed */
+  overflow-y: auto;
+  /* Add scroll if content overflows */
+  padding-right: var(--line-height);
+  /* Add spacing to the right */
+  border-right: calc(var(--border-thickness) * 3) double var(--text-color);
+  /* Double border separator */
 }
 
 .main-content {
-  flex: 1; /* Allow main content to take remaining space */
+  flex: 1;
+  /* Allow main content to take remaining space */
 }
 
 .container {
-  display: flex; /* Use flexbox for layout */
-  height: 100vh; /* Set a height for the container */
+  display: flex;
+  /* Use flexbox for layout */
+  height: 100vh;
+  /* Set a height for the container */
 }
 
 body {
@@ -101,7 +128,8 @@ aside {
 
 /* Styles for the tree within the sidebar */
 .sidebar .tree {
-  font-size: large; /* Adjust font size for the tree */
+  font-size: large;
+  /* Adjust font size for the tree */
 }
 
 /* Ensure the folder structure is contained within the sidebar */
@@ -123,41 +151,49 @@ aside {
   left: 0;
 }
 
-.sidebar .tree > li {
+.sidebar .tree>li {
   padding-left: 0;
   margin-left: 0;
   border-left: none;
 }
 
-.sidebar .tree > li::after {
+.sidebar .tree>li::after {
   right: 0;
 }
 
-.sidebar .tree > li > p {
+.sidebar .tree>li>p {
   padding-left: 20px;
 }
 
 .main-content {
-  margin-top: 0; /* Add some left padding */
+  margin-top: 0;
+  /* Add some left padding */
   margin-right: 0;
 }
 
 main-content.header {
-  width: 100%; /* Make the header span the full width of the main content */
-  margin-bottom: var(--line-height); /* Add some spacing below the header */
+  width: 100%;
+  /* Make the header span the full width of the main content */
+  margin-bottom: var(--line-height);
+  /* Add some spacing below the header */
   border-left: none;
 }
 
 .main-content.header h1 {
-  margin: 0; /* Reset margins for the h1 within the header */
+  margin: 0;
+  /* Reset margins for the h1 within the header */
 }
 
 .main-content.header td {
-  padding: 0.5ch; /* Add padding to table cells for better spacing */
-  vertical-align: middle; /* Vertically center content in table cells */
+  padding: 0.5ch;
+  /* Add padding to table cells for better spacing */
+  vertical-align: middle;
+  /* Vertically center content in table cells */
 }
+
 .main-content.header th {
-  text-align: left; /* Align table headers to the left */
+  text-align: left;
+  /* Align table headers to the left */
 }
 
 .onexdev {
@@ -165,7 +201,7 @@ main-content.header {
 }
 
 .linkedin {
-  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20data-supported-dps%3D%2224x24%22%20fill%3D%22currentColor%22%20class%3D%22mercado-match%22%20width%3D%2224%22%20height%3D%2224%22%20focusable%3D%22false%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M20.5%202h-17A1.5%201.5%200%20002%203.5v17A1.5%201.5%200%20003.5%2022h17a1.5%201.5%200%20001.5-1.5v-17A1.5%201.5%200%200020.5%202zM8%2019H5v-9h3zM6.5%208.25A1.75%201.75%200%20118.3%206.5a1.78%201.78%200%2001-1.8%201.75zM19%2019h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74%201.74%200%200013%2014.19a.66.66%200%20000%20.14V19h-3v-9h2.9v1.3a3.11%203.11%200%20012.7-1.4c1.55%200%203.36.86%203.36%203.66z%22%3E%3C%2Fpath%3E%0A%20%20%20%20%3C%2Fsvg%3E");
+  background-image: var(--linkedin-logo);
   background-size: 19px 19px;
   background-repeat: no-repeat;
   background-position: left center;
@@ -173,7 +209,7 @@ main-content.header {
 }
 
 .github {
-  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22currentColor%22%20viewBox%3D%220%200%2024%2024%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M12.5.75C6.146.75%201%205.896%201%2012.25c0%205.089%203.292%209.387%207.863%2010.91.575.101.79-.244.79-.546%200-.273-.014-1.178-.014-2.142-2.889.532-3.636-.704-3.866-1.35-.13-.331-.69-1.352-1.18-1.625-.402-.216-.977-.748-.014-.762.906-.014%201.553.834%201.769%201.179%201.035%201.74%202.688%201.25%203.349.948.1-.747.402-1.25.733-1.538-2.559-.287-5.232-1.279-5.232-5.678%200-1.25.445-2.285%201.178-3.09-.115-.288-.517-1.467.115-3.048%200%200%20.963-.302%203.163%201.179.92-.259%201.897-.388%202.875-.388.977%200%201.955.13%202.875.388%202.2-1.495%203.162-1.179%203.162-1.179.633%201.581.23%202.76.115%203.048.733.805%201.179%201.825%201.179%203.09%200%204.413-2.688%205.39-5.247%205.678.417.36.776%201.05.776%202.128%200%201.538-.014%202.774-.014%203.162%200%20.302.216.662.79.547C20.709%2021.637%2024%2017.324%2024%2012.25%2024%205.896%2018.854.75%2012.5.75Z%22%3E%3C%2Fpath%3E%0A%3C%2Fsvg%3E");
+  background-image: var(--github-logo);
   background-size: 19px 19px;
   background-repeat: no-repeat;
   background-position: left center;
@@ -181,7 +217,7 @@ main-content.header {
 }
 
 .twitter {
-  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22currentColor%22%20viewBox%3D%220%200%2024%2024%22%3E%0A%3Cg%3E%3Cpath%20d%3D%22M18.244%202.25h3.308l-7.227%208.26%208.502%2011.24H16.17l-5.214-6.817L4.99%2021.75H1.68l7.73-8.835L1.254%202.25H8.08l4.713%206.231zm-1.161%2017.52h1.833L7.084%204.126H5.117z%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-image: var(--twitter-logo);
   background-size: 19px 19px;
   background-repeat: no-repeat;
   background-position: left center;
