@@ -1,34 +1,11 @@
-whoami
-==========
+# whoami 
 
-My name is Ilia and for the past almost 4 years I've been doing 
-engineering of different kinds.
-Currently, I am pushing frontiers of verifiable computation and 
-working on formally verifying (there two "verify" roots refer to 
-different things!)
-cryptographic protocols at [Nethermind](https://www.nethermind.io/).
+I'm Ilia, a software engineer with nearly four years of experience.  Currently, I'm pushing the boundaries of verifiable computation at [Nethermind](https://www.nethermind.io/), where I work on engineering and formally verifying cryptographic protocols.  Yes, there are two "verifications" – ensuring the computation's integrity and formally proving the protocol's correctness – that I'm dealing with on day-to-day basis.
 
-I am broadly interested in pretty low-level systems such as 
-cryptographic protocols, virtual machines, compilers/interpreters, 
-ISA and formal verification thereof. 
-I find it extremely satisfying to be in control of bytecode level flow of a programm, feels 
-almost like magic.
+My interests lie in low-level systems, including cryptographic protocols, virtual machines, compilers/interpreters, instruction set architectures (ISAs), and their formal verification. I find immense satisfaction in understanding and manipulating program execution at the bytecode level – it almost feels like some kind of sorcery.
 
-I've spent a solid chunk of my concious life working on dependent 
-type theory and its models in higher categories so, naturally, I 
-believe in correct-by-construction, formally-verified software 
-(and hardware too!), although now I'm more on the pragmatic side 
-of things. I consider myself the most proficient in Rust and 
-Haskell but I am open to working in any programming language and 
-don't have prejudice against any programming languages. I.e., 
-would I be up to writting some Cobol? Totaly, if the project is 
-interesting to me! 
+I've dedicated a significant portion of my life in the past to working on dependent type theory and its models in higher categories. So it's pretty natural I believe in correct-by-construction, formally verified software (and hardware too!). While my approach is now more pragmatic, the principles remain.  I'm most proficient in Rust and Haskell, but I'm language-agnostic and eager to work with any language if the project is compelling.  Even COBOL could be an interesting challenge!
 
-why 1x dev
-==========
-We all have come accross those people that operate at the peek 
-performance whether it's your collegue or a random user from X/
-GitHub with anime profile pic. Those who everyone would usually 
-call **10x** devs. I believe anyone can achieve **10x** 
-performance and on my personal blog am going to journal my own 
-progress from **1x** to **10x**. Let's see what happens!
+## why 1x dev 
+
+We've all encountered those exceptionally productive individuals – the "10x developers" – whether they're colleagues or random users from X/GitHub behind an anime profile pic. I believe that anyone can achieve that level of performance.  On my blog, I'll be documenting my personal journey from "1x" to "10x" developer.  Join me and see what happens!
