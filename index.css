@@ -183,6 +183,11 @@ aside {
   margin-right: 0;
 }
 
+.main-content > table {
+  /* This is bad if we have more than one table. Let's see. */
+  width: 100%;
+}
+
 main-content.header {
   width: 100%;
   /* Make the header span the full width of the main content */
