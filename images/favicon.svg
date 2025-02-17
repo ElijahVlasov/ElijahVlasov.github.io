@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+<style>
+    @import url('https://fonts.cdnfonts.com/css/jetbrains-mono-2');
+
+    text {
+        font-family: "JetBrains Mono", monospace;
+        font-size:120%;
+        fill: black;
+    }
+    @media (prefers-color-scheme: dark) {
+      text {
+        fill: white;
+        font-size: 120%;
+      }
+    }
+    </style>
+  <text x="2" y="20" font-weight="bold">1x</text>
+</svg>

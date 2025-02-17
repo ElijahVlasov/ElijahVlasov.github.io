@@ -1,3 +1,13 @@
 body {
     overflow: visible;
+    display: block;
+    padding-left: calc(var(--line-height) * 1.5);
+    padding-right: calc(var(--line-height) * 1.5);
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--font-weight-bold);
+  margin: calc(var(--line-height)) 0 var(--line-height);
+  text-transform: none;
 }
