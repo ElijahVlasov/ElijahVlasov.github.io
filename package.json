@@ -1,5 +1,9 @@
 {
   "dependencies": {
     "@owickstrom/the-monospace-web": "github:owickstrom/the-monospace-web"
+  },
+  "scripts": {
+    "build-jekyll": "bundle exec jekyll build",
+    "build": "npm ci && mkdir -p _site/the-monospace-web && cp node_modules/@owickstrom/the-monospace-web/src/* _site/the-monospace-web"
   }
 }
