@@ -4,6 +4,6 @@
   },
   "scripts": {
     "build-jekyll": "bundle exec jekyll build",
-    "build": "npm ci && mkdir -p _site/the-monospace-web && cp node_modules/@owickstrom/the-monospace-web/src/* _site/the-monospace-web"
+    "build": "npm ci && mkdir -p _site/the-monospace-web && cp node_modules/@owickstrom/the-monospace-web/src/* _site/the-monospace-web && mkdir -p _site/images && cp images/* _site/images"
   }
 }

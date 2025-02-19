@@ -1,3 +1,7 @@
+---
+layout: content
+title: whoami
+---
 ## whoami 
 
 I'm Ilia, a software engineer with nearly four years of experience.  Currently, I'm pushing the boundaries of verifiable computation at [Nethermind](https://www.nethermind.io/), where I work on engineering and formally verifying cryptographic protocols.  Yes, there are two "verifications" – ensuring the computation's integrity and formally proving the protocol's correctness – that I'm dealing with on day-to-day basis.
