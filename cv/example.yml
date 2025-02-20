@@ -1,46 +1,45 @@
 personal:
-  name: Jake Ryan
-  phone: 123-456-7890
-  email: jake@su.edu
-  linkedin: linkedin.com/in/jake
-  site: github.com/jake
+  name: Ilia Vlasov
+  email: elijah.vlasov@gmail.com
+  linkedin: linkedin.com/in/elijahvlasov
+  twitter: x.com/fastreadsolomon
+  site: github.com/ElijahVlasov
+  phone: 9
 education:
-  - name: Southwestern University
-    degree: Bachelor of Arts in Computer Science, Minor in Business
-    location: Georgetown, TX
-    date: Aug. 2018 - May 2021
-  - name: Blinn College
-    degree: Associate's in Liberal Arts
-    location: Bryan, TX
-    date: Aug. 2014 - May 2018
+  - name: Kazan Federal University
+    degree: Master of Science in Mathematics
+    location: Kazan, Russia
+    date: Sep. 2018 - Jul 2020
+  - name: Kazan Federal University
+    degree: Bachelor of Science in Mathematics
+    location: Kazan, Russia
+    date: Sep. 2014 - Jul 2018
 experience:
-  - role: Undergraduate Research Assistant
-    name: Texas A&M University
-    location: College Station, TX
-    date: June 2020 - Present
+  - role: Cryptography Researcher and Formal Verification Engineer 
+    name: Nethermind
+    location: London, UK
+    date: Mar 2022 - Present
     points:
-      - Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems
-      - Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data
-      - Explored ways to visualize GitHub collaboration in a classroom setting
-  - role: Information Technology Support Specialist
-    name: Southwestern University
-    location: Georgetown, TX
-    date: Sep. 2018 - Present
+      - Co-authored Mova folding scheme, 
+        i.e. a cryptographic protocol that allows for an untrusted party
+        to securely prove correct aggregation of multiple instances of certain computation. 
+        Proved its cryptographic security properties. Led implementation of the protocol.      
+      - Led a team of 5 engineers implementing the first lattice-based cryptographic folding scheme
+        called LatticeFold in Rust. Worked on researching opportunities to apply the scheme in the context 
+        of scalable transparent arguments of knowledge (STARKs).
+      - Formally verified parts of a RISC-V zk virtual machine Risc$0$ in Lean proof assistant.
+      - Contributed into development of a Cairo virtual machine written in Golang. Advised on cryptographic aspects.
+      - Worked on a Solidity formal verification tool called Clear.   
+      - Participated in the development of the Horus security analysis tool for Cairo smart contract programming language in Haskell. 
+  - role: Research Engineer 
+    name: Sofoil
+    location: Kazan, Russia
+    date: Aug. 2021 - Feb. 2022
     points:
-      - Communicate with managers to set up campus computers used on campus
-      - Assess and troubleshoot computer problems brought by students, faculty and staff
-      - Maintain upkeep of computers, classroom equipment, and 200 printers across campus
-  - role: Artificial Intelligence Research Assistant
-    name: Southwestern University
-    location: Georgetown, TX
-    date: May 2019 - July 2019
-    points:
-      - Explored methods to generate video game dungeons based off of The Legend of Zelda
-      - Developed a game in Java to test the generated dungeons
-      - Contributed 50K+ lines of code to an established codebase via Git
-      - Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable
-      - Wrote an 8-page paper and gave multiple presentations on-campus
-      - Presented virtually to the World Conference on Computational Intelligence
+      - Participated in the development of a training simulator for petroleum geologists called PolyPlan.
+      - Developed from scratch a microservice that performs calculation of pressure build-up/fall-off in oil wells 
+        in the presence of external factors using Python. 
+        Assisted senior researchers in developing mathematical models of such behaviour.       
 projects:
   - name: Gitlytics
     skills: Python, Flask, React, PostgreSQL, Docker
@@ -50,17 +49,7 @@ projects:
       - Implemented GitHub OAuth to get data from user’s repositories
       - Visualized GitHub data to show collaboration
       - Used Celery and Redis for asynchronous tasks
-  - name: Simple Paintball
-    skills: Spigot API, Java, Maven, TravisCI, Git
-    date: May 2018 - May 2020
-    points:
-      - Developed a Minecraft server plugin to entertain kids during free time for a previous job
-      - Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review
-      - Implemented continuous delivery using TravisCI to build the plugin upon new a release
-      - Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin
-skills:
-  - category: Languages
-    skills: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R
+skills: 
   - category: Frameworks
     skills: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI
   - category: Developer Tools
