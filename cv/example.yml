@@ -4,16 +4,16 @@ personal:
   linkedin: linkedin.com/in/elijahvlasov
   twitter: x.com/fastreadsolomon
   site: github.com/ElijahVlasov
-  phone: 9
+  phone: aili.dev
 education:
   - name: Kazan Federal University
     degree: Master of Science in Mathematics
     location: Kazan, Russia
-    date: Sep. 2018 - Jul 2020
+    date: Sep. 2018 - Jul. 2020
   - name: Kazan Federal University
     degree: Bachelor of Science in Mathematics
     location: Kazan, Russia
-    date: Sep. 2014 - Jul 2018
+    date: Sep. 2014 - Jul. 2018
 experience:
   - role: Cryptography Researcher and Formal Verification Engineer 
     name: Nethermind
@@ -27,7 +27,7 @@ experience:
       - Led a team of 5 engineers implementing the first lattice-based cryptographic folding scheme
         called LatticeFold in Rust. Worked on researching opportunities to apply the scheme in the context 
         of scalable transparent arguments of knowledge (STARKs).
-      - Formally verified parts of a RISC-V zk virtual machine Risc$0$ in Lean proof assistant.
+      - Formally verified parts of a RISC-V zk virtual machine Risc0 in Lean proof assistant.
       - Contributed into development of a Cairo virtual machine written in Golang. Advised on cryptographic aspects.
       - Worked on a Solidity formal verification tool called Clear.   
       - Participated in the development of the Horus security analysis tool for Cairo smart contract programming language in Haskell. 

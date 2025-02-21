@@ -32,10 +32,10 @@
   align(center,
     block[
       #name_header(name) \
-      #phone |
+      #link("https://" + phone)[#phone] |
       #link("mailto:" + email)[#email] |
-      #link("https://" + linkedin)[#linkedin] |
-      #link("https://" + site)[#site]
+      #link("https://" + linkedin)[LinkedIn] |
+      #link("https://" + site)[GitHub]
     ]
   )
   v(5pt)
