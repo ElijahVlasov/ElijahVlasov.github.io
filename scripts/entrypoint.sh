@@ -2,10 +2,12 @@
 
 if [[ $* == *--gh-action* ]] 
 then 
-    bundle install &&
+    export HOME=/root/
+    . /.bash_env
+    bundle config set --local path '/.gem' && 
+        bundle install &&
         bundle exec jekyll build &&
-        npm run build &&
-        cp -r ./_site/ /github/workspace
+        npm run build 
 else 
     bash 
 fi
