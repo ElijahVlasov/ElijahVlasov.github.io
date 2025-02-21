@@ -19,6 +19,8 @@ RUN apt-get update && \
 RUN gem install jekyll bundler 
 COPY . /home/debian/project/
 RUN chown -R debian /home/debian/project/
+COPY ./scripts/entrypoint.sh /home/debian/entrypoint.sh
+RUN chmod 777 /home/debian/entrypoint.sh
 USER debian
 
 # Install typst.
@@ -38,4 +40,4 @@ WORKDIR /home/debian/project
 RUN bundle config set --local path '/home/debian/.gem' \
     && bundle install 
 EXPOSE 4000
-ENTRYPOINT [ "/bin/bash" ]
+ENTRYPOINT [ "/home/debian/entrypoint.sh" ]

@@ -1,0 +1,6 @@
+name: 'Build the website'
+runs:
+  using: 'docker'
+  image: '../../../Dockerfile'
+  args:
+    - --gh-action
