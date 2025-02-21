@@ -20,7 +20,7 @@ COPY ./scripts/entrypoint.sh /entrypoint.sh
 RUN chmod 777 /entrypoint.sh
 
 # Install typst.
-# RUN cargo install --locked typst-cli
+RUN cargo install --locked typst-cli
 
 ENV BASH_ENV=/.bash_env
 RUN touch "${BASH_ENV}"
