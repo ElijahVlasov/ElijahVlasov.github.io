@@ -62,8 +62,8 @@
   show: resume
 
   yml_personal(data.personal)
-  yml_education(data.education)
-  yml_experience(data.experience)
-  yml_projects(data.projects)
   yml_skills(data.skills)
+  yml_experience(data.experience)
+  yml_education(data.education)
+  yml_projects(data.projects)
 }

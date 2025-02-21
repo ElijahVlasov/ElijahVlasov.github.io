@@ -50,9 +50,17 @@ projects:
       - Visualized GitHub data to show collaboration
       - Used Celery and Redis for asynchronous tasks
 skills: 
-  - category: Frameworks
-    skills: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI
+  - category: Programming languages
+    skills: Rust, Haskell, Golang, C/C++, Python, Java.
+  - category: Database management systems
+    skills: SQLite, MySQL, PostgreSQL, Redis.
+  - category: Backend frameworks
+    skills: Django, Spring.
+  - category: Cryptography 
+    skills: Public-key encryption, cryptographic hash functions, SNARKS/STARKS, Lattice-based cryptography.  
+  - category: Zero-knowledge languages and frameworks
+    skills: Circom, Halo2, Plonky3.
   - category: Developer Tools
-    skills: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse
+    skills: git, bash scripting, Docker, Kubernetes, Github CI/CD actions, vim. 
   - category: Libraries
     skills: pandas, NumPy, Matplotlib

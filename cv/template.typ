@@ -51,6 +51,16 @@
   ]
 }
 
+#let skill_item(
+  category: "Skills",
+  skills: "Balling, Yoga, Valorant",
+) = {
+  set block(above: 0.7em)
+  set text(size: 0.91em)
+  pad(left: 1em, right: 0.5em, block[*#category*: #skills])
+}
+
+
 #let edu_item(
   name: "Sample University", 
   degree: "B.S in Bullshit", 
@@ -108,11 +118,3 @@
   ])
 }
 
-#let skill_item(
-  category: "Skills",
-  skills: "Balling, Yoga, Valorant",
-) = {
-  set block(above: 0.7em)
-  set text(size: 0.91em)
-  pad(left: 1em, right: 0.5em, block[*#category*: #skills])
-}
