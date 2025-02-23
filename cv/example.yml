@@ -20,17 +20,12 @@ experience:
     location: London, UK
     date: Mar 2022 - Present
     points:
-      - Co-authored Mova folding scheme, 
-        i.e. a cryptographic protocol that allows for an untrusted party
-        to securely prove correct aggregation of multiple instances of certain computation. 
-        Proved its cryptographic security properties. Led implementation of the protocol.      
-      - Led a team of 5 engineers implementing the first lattice-based cryptographic folding scheme
-        called LatticeFold in Rust. Worked on researching opportunities to apply the scheme in the context 
-        of scalable transparent arguments of knowledge (STARKs).
-      - Formally verified parts of a RISC-V zk virtual machine Risc0 in Lean proof assistant.
-      - Contributed into development of a Cairo virtual machine written in Golang. Advised on cryptographic aspects.
-      - Worked on a Solidity formal verification tool called Clear.   
-      - Participated in the development of the Horus security analysis tool for Cairo smart contract programming language in Haskell. 
+      - Desinging and optimising cryptographic protocols.
+      - Leading a team of 5 engineers implementing cryptographic protocols.
+      - Formally verifying security properties of zero-knowledge protocols.
+      # - Contributed into development of a Cairo virtual machine written in Golang. Advised on cryptographic aspects.
+      # - Worked on a Solidity formal verification tool called Clear.   
+      # - Participated in the development of the Horus security analysis tool for Cairo smart contract programming language in Haskell. 
   - role: Research Engineer 
     name: Sofoil
     location: Kazan, Russia
@@ -41,14 +36,32 @@ experience:
         in the presence of external factors using Python. 
         Assisted senior researchers in developing mathematical models of such behaviour.       
 projects:
-  - name: Gitlytics
-    skills: Python, Flask, React, PostgreSQL, Docker
-    date: June 2020 - Present
+  - name: LatticeFold
+    skills: Rust, Rayon, unsafe Rust, zkSNARKS, lattice-based cryptography.
+    date: June 2024 - Dec 2024.
     points:
-      - Developed a full-stack web application using with Flask serving a REST API with React as the frontend
-      - Implemented GitHub OAuth to get data from user’s repositories
-      - Visualized GitHub data to show collaboration
-      - Used Celery and Redis for asynchronous tasks
+      - Led the implementation of the first lattice-based cryptographic folding scheme
+        called LatticeFold in Rust.
+      - Worked on researching opportunities to apply the scheme in the context 
+        of scalable transparent arguments of knowledge (STARKs).
+      - Worked on a derived folding scheme called OvaL (not yet public).
+  - name: Mova folding scheme 
+    skills: Rust, Rayon, zkSNARKS, verifiable computation. 
+    date: June 2024 - Aug 2024
+    points:
+      - Co-authored the paper describing the protocol. 
+      - Led the proof-of-concept implementation.      
+  - name: Verified PLONK verifier
+    skills: Solidity, Yul, EasyCrypt, SMT solvers, zkSNARKS.
+    date: Jul 2024 - Sep 2024.
+    points:
+      - Participated in functional formal verification of a PLONK/plookup Yul verifier used by zkSync.
+  - name: Formally verified Risc0 zkVM
+    skills: Lean4, C++, MLIR, zk circuits, RISC-V.
+    date: Jun 2023 - Aug 2023.
+    points:
+      - Proving formal correctness of zk circuits implementing a zero-knowledge RISC-V virtual machine.
+      - Proving correctness of the instruction decoder in the CPU execution pipeline.
 skills: 
   - category: Programming languages
     skills: Rust, Haskell, Golang, C/C++, Python, Java.
@@ -62,5 +75,3 @@ skills:
     skills: Circom, Halo2, Plonky3.
   - category: Developer Tools
     skills: git, bash scripting, Docker, Kubernetes, Github CI/CD actions, vim. 
-  - category: Libraries
-    skills: pandas, NumPy, Matplotlib
