@@ -60,6 +60,14 @@
   pad(left: 1em, right: 0.5em, block[*#category*: #skills])
 }
 
+#let summary_description(
+  txt: "I'm a good professional",
+) = {
+  set block(above: 0.7em)
+  set text(size: 0.91em)
+  pad(left: 1em, right: 0.5em, block[#txt])
+}
+
 
 #let edu_item(
   name: "Sample University", 
@@ -118,3 +126,10 @@
   ])
 }
 
+#let references_description(
+  txt: "I'm a good professional",
+) = {
+  set block(above: 0.7em)
+  set text(size: 0.91em)
+  pad(left: 1em, right: 0.5em, block[#txt])
+}

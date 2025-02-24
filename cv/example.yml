@@ -5,6 +5,18 @@ personal:
   twitter: x.com/fastreadsolomon
   site: github.com/ElijahVlasov
   phone: aili.dev
+summary:
+  text:
+    Experienced software engineer and researcher with solid math and logic background. 
+    Avid problem-solver targeting the hardest problems varying across different areas. 
+    Fluent in various programming languages, particularly those with strong memory-security guarantees 
+    --- Rust and Haskell. 
+    Cryptography and privacy-enhancing technologies enthusiast.
+    Experienced in formal verification of cryptographic applications. 
+    Capable of working in a dynamically changing environment and constantly learning about cutting-edge technologies. 
+    Dedicated to delivering high-quality innovative results. 
+    Passionate about working on low-level intricacies of software systems. 
+    Highly strategic, team player, fresh project owner. Open-source contributor. 
 education:
   - name: Kazan Federal University
     degree: Master of Science in Mathematics
@@ -32,6 +44,13 @@ experience:
       - Developed from scratch a microservice that performs calculation of pressure build-up/fall-off in oil wells 
         in the presence of external factors using Python. 
         Assisted senior researchers in developing mathematical models of such behaviour.       
+  - role: Teaching assistant
+    name: The University of Western Ontario
+    location: London (ON), Canada
+    date: Jan 2021 - Jul 2021
+    points:
+      - Assisted with Linear Algebra and Mathematical Logic courses.
+      - Held office hours for first-year undergraduate students. 
 projects:
   - name: LatticeFold
     skills: Rust, Rayon, unsafe Rust, zkSNARKS, lattice-based cryptography.

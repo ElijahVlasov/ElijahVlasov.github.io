@@ -1,4 +1,4 @@
-#import "template.typ": resume, header, resume_heading, edu_item, exp_item, project_item, skill_item
+#import "template.typ": resume, header, resume_heading, edu_item, exp_item, project_item, skill_item, summary_description
 
 
 #let yml_personal(d) = {
@@ -21,6 +21,16 @@
       date: edu.date,
     )
   }
+}
+
+#let yml_summary(d) = {
+  resume_heading[Professional summary]
+  summary_description(txt: d.text)
+}
+
+#let yml_references() = {
+  resume_heading[References]
+  summary_description(txt: "Available on Request")
 }
 
 #let yml_experience(d) = {
@@ -62,8 +72,10 @@
   show: resume
 
   yml_personal(data.personal)
+  yml_summary(data.summary)
   yml_skills(data.skills)
   yml_experience(data.experience)
   yml_projects(data.projects)
   yml_education(data.education)
+  yml_references()
 }
