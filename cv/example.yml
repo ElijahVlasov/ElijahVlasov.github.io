@@ -9,11 +9,11 @@ education:
   - name: Kazan Federal University
     degree: Master of Science in Mathematics
     location: Kazan, Russia
-    date: Sep. 2018 - Jul. 2020
+    date: Sep 2018 - Jul 2020
   - name: Kazan Federal University
     degree: Bachelor of Science in Mathematics
     location: Kazan, Russia
-    date: Sep. 2014 - Jul. 2018
+    date: Sep 2014 - Jul 2018
 experience:
   - role: Cryptography Researcher and Formal Verification Engineer 
     name: Nethermind
@@ -23,13 +23,10 @@ experience:
       - Desinging and optimising cryptographic protocols.
       - Leading a team of 5 engineers implementing cryptographic protocols.
       - Formally verifying security properties of zero-knowledge protocols.
-      # - Contributed into development of a Cairo virtual machine written in Golang. Advised on cryptographic aspects.
-      # - Worked on a Solidity formal verification tool called Clear.   
-      # - Participated in the development of the Horus security analysis tool for Cairo smart contract programming language in Haskell. 
   - role: Research Engineer 
     name: Sofoil
     location: Kazan, Russia
-    date: Aug. 2021 - Feb. 2022
+    date: Aug 2021 - Feb 2022
     points:
       - Participated in the development of a training simulator for petroleum geologists called PolyPlan.
       - Developed from scratch a microservice that performs calculation of pressure build-up/fall-off in oil wells 
@@ -38,7 +35,7 @@ experience:
 projects:
   - name: LatticeFold
     skills: Rust, Rayon, unsafe Rust, zkSNARKS, lattice-based cryptography.
-    date: June 2024 - Dec 2024.
+    date: Jun 2024 - Dec 2024
     points:
       - Led the implementation of the first lattice-based cryptographic folding scheme
         called LatticeFold in Rust.
@@ -47,21 +44,38 @@ projects:
       - Worked on a derived folding scheme called OvaL (not yet public).
   - name: Mova folding scheme 
     skills: Rust, Rayon, zkSNARKS, verifiable computation. 
-    date: June 2024 - Aug 2024
+    date: Jun 2024 - Aug 2024
     points:
       - Co-authored the paper describing the protocol. 
-      - Led the proof-of-concept implementation.      
+      - Led the proof-of-concept implementation in Rust.      
   - name: Verified PLONK verifier
     skills: Solidity, Yul, EasyCrypt, SMT solvers, zkSNARKS.
-    date: Jul 2024 - Sep 2024.
+    date: Jul 2024 - Sep 2024
     points:
       - Participated in functional formal verification of a PLONK/plookup Yul verifier used by zkSync.
   - name: Formally verified Risc0 zkVM
     skills: Lean4, C++, MLIR, zk circuits, RISC-V.
-    date: Jun 2023 - Aug 2023.
+    date: Jun 2023 - Aug 2023
     points:
       - Proving formal correctness of zk circuits implementing a zero-knowledge RISC-V virtual machine.
       - Proving correctness of the instruction decoder in the CPU execution pipeline.
+  - name: Cairo virtual machine in golang
+    skills: golang, Cairo.
+    date: Sep 2023 - Oct 2023
+    points:
+      - Implementing the first sketch of the virtual machine.
+      - Worked on optimising parts involving finite field arithmetic. 
+  - name: Clear, the Solidity verification tool
+    skills: Haskell, Lean4, Solidity, EVM bytecode, Yul. 
+    date: Sep 2023 - Jan 2024
+    points:
+      - Worked on developing a formal verification harness for Solidity smart-contract language in Haskell/Lean4.
+  - name: Horus SMT-checker for Cairo language
+    skills: Haskell, Python, Cairo, SMT solvers.
+    date: Mar 2022 - Feb 2023
+    points:
+      - Led development of the compiler plugin in Python that prepares data for the SMT-solver core component.
+      - Participated in development of the core SMT-solving component in Haskell. 
 skills: 
   - category: Programming languages
     skills: Rust, Haskell, Golang, C/C++, Python, Java.
